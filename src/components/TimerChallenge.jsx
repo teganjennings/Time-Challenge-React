@@ -1,4 +1,5 @@
 import { useState } from "react";
+
 let timer;
 
 export default function TimerChallenge({ title, targetTime }) {
