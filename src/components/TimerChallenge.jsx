@@ -16,6 +16,7 @@ export default function TimerChallenge({ title, targetTime }) {
 	function handleStop() {
 		clearTimeout(timercurrent);
 	}
+
 	return (
 		<section className="challenge">
 			<h2>{title}</h2>
